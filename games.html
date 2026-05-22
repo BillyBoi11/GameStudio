@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Explore games from The Hidden Latitude studio." />
+  <title>Games — The Hidden Latitude</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body data-page="games">
+  <div class="intro-grain" aria-hidden="true"></div>
+  <div class="vignette" aria-hidden="true"></div>
+
+  <nav class="site-nav is-locked" aria-label="Main navigation">
+    <div class="nav-inner">
+      <a href="social.html" class="nav-link" data-nav="social" aria-disabled="true">Social</a>
+      <a href="games.html" class="nav-link is-active" data-nav="games" aria-disabled="true">Games</a>
+      <a href="developers.html" class="nav-link" data-nav="developers" aria-disabled="true">Developers</a>
+      <a href="index.html" class="nav-link nav-link--home" data-nav="home">Home</a>
+    </div>
+  </nav>
+
+  <p class="nav-lock-hint">Complete the home experience to unlock navigation</p>
+
+  <main class="page">
+    <div class="page-inner">
+      <header class="page-header">
+        <h1 class="page-title">Games</h1>
+        <p class="page-description">Our library of current and upcoming projects.</p>
+      </header>
+
+      <div class="games-grid">
+        <article
+          class="game-card game-card--has-art"
+          data-href="games/the-hidden-latitude.html"
+          tabindex="0"
+          role="link"
+          aria-label="The Hidden Latitude — view game details"
+        >
+          <div class="game-card-bg game-card-bg--image" aria-hidden="true">
+            <img
+              src="assets/games/hidden-latitude-preview.png"
+              alt=""
+              loading="lazy"
+            />
+          </div>
+          <div class="game-card-overlay" aria-hidden="true"></div>
+          <div class="game-card-content">
+            <h2 class="game-card-title">The Hidden Latitude</h2>
+            <p class="game-card-genre">Psychological Survival Horror / Multiplayer Exploration</p>
+            <p class="game-card-desc">
+              You wake up on a remote island system with no explanation of how you arrived. The world is silent, but not empty. Structures change when unobserved, and reality itself appears unstable.
+            </p>
+          </div>
+        </article>
+
+        <article
+          class="game-card"
+          data-href="games/project-racing.html"
+          tabindex="0"
+          role="link"
+          aria-label="Project: Racing — view game details"
+        >
+          <div class="game-card-bg" aria-hidden="true"></div>
+          <div class="game-card-overlay" aria-hidden="true"></div>
+          <div class="game-card-content">
+            <h2 class="game-card-title">Project: Racing</h2>
+            <p class="game-card-genre">Arcade / Simulation Racing (Early Development)</p>
+            <p class="game-card-desc">
+              A currently unannounced racing project in early development. No additional details are available at this time.
+            </p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </main>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
